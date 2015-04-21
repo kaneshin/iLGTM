@@ -57,8 +57,13 @@
 
 - (UIImage *)LGTMImage {
     CGRect rect = self.imageView.bounds;
+    CGFloat scale = [UIScreen mainScreen].scale;
+    rect.size.width *= scale;
+    rect.size.height *= scale;
+
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextScaleCTM(context, scale, scale);
     [self.imageView.layer renderInContext:context];
     UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
