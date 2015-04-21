@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		01F69878EE5DBD80C45E784B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC2C2FC6EEB0404D0810E87 /* libPods.a */; };
+		797BD3811AE61EBF00D1AACF /* LGTMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797BD3801AE61EBF00D1AACF /* LGTMMainViewController.m */; };
+		797BD3841AE61F1B00D1AACF /* LGTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 797BD3831AE61F1B00D1AACF /* LGTMAppDelegate.m */; };
 		79F4D5501AE6191B007F2C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4D54F1AE6191B007F2C16 /* main.m */; };
-		79F4D5531AE6191B007F2C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4D5521AE6191B007F2C16 /* AppDelegate.m */; };
 		79F4D5561AE6191B007F2C16 /* iLGTM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79F4D5541AE6191B007F2C16 /* iLGTM.xcdatamodeld */; };
-		79F4D5591AE6191B007F2C16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4D5581AE6191B007F2C16 /* ViewController.m */; };
 		79F4D55C1AE6191B007F2C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F4D55A1AE6191B007F2C16 /* Main.storyboard */; };
 		79F4D55E1AE6191B007F2C16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F4D55D1AE6191B007F2C16 /* Images.xcassets */; };
 		79F4D5611AE6191B007F2C16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F4D55F1AE6191B007F2C16 /* LaunchScreen.xib */; };
@@ -30,14 +30,14 @@
 
 /* Begin PBXFileReference section */
 		3BC2C2FC6EEB0404D0810E87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		797BD37F1AE61EBF00D1AACF /* LGTMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTMMainViewController.h; sourceTree = "<group>"; };
+		797BD3801AE61EBF00D1AACF /* LGTMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTMMainViewController.m; sourceTree = "<group>"; };
+		797BD3821AE61F1B00D1AACF /* LGTMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTMAppDelegate.h; sourceTree = "<group>"; };
+		797BD3831AE61F1B00D1AACF /* LGTMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTMAppDelegate.m; sourceTree = "<group>"; };
 		79F4D54A1AE6191B007F2C16 /* iLGTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLGTM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F4D54E1AE6191B007F2C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F4D54F1AE6191B007F2C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79F4D5511AE6191B007F2C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		79F4D5521AE6191B007F2C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79F4D5551AE6191B007F2C16 /* iLGTM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLGTM.xcdatamodel; sourceTree = "<group>"; };
-		79F4D5571AE6191B007F2C16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		79F4D5581AE6191B007F2C16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79F4D55B1AE6191B007F2C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79F4D55D1AE6191B007F2C16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79F4D5601AE6191B007F2C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -67,6 +67,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		797BD37B1AE61E9D00D1AACF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				797BD3821AE61F1B00D1AACF /* LGTMAppDelegate.h */,
+				797BD3831AE61F1B00D1AACF /* LGTMAppDelegate.m */,
+				797BD37C1AE61E9D00D1AACF /* Models */,
+				797BD37D1AE61E9D00D1AACF /* ViewControllers */,
+				797BD37E1AE61E9D00D1AACF /* Views */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		797BD37C1AE61E9D00D1AACF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		797BD37D1AE61E9D00D1AACF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				797BD37F1AE61EBF00D1AACF /* LGTMMainViewController.h */,
+				797BD3801AE61EBF00D1AACF /* LGTMMainViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		797BD37E1AE61E9D00D1AACF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		79F4D5411AE6191B007F2C16 = {
 			isa = PBXGroup;
 			children = (
@@ -90,10 +125,7 @@
 		79F4D54C1AE6191B007F2C16 /* iLGTM */ = {
 			isa = PBXGroup;
 			children = (
-				79F4D5511AE6191B007F2C16 /* AppDelegate.h */,
-				79F4D5521AE6191B007F2C16 /* AppDelegate.m */,
-				79F4D5571AE6191B007F2C16 /* ViewController.h */,
-				79F4D5581AE6191B007F2C16 /* ViewController.m */,
+				797BD37B1AE61E9D00D1AACF /* Application */,
 				79F4D55A1AE6191B007F2C16 /* Main.storyboard */,
 				79F4D55D1AE6191B007F2C16 /* Images.xcassets */,
 				79F4D55F1AE6191B007F2C16 /* LaunchScreen.xib */,
@@ -192,6 +224,7 @@
 		79F4D5421AE6191B007F2C16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LGTM;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Shintaro Kaneko";
 				TargetAttributes = {
@@ -281,9 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F4D5531AE6191B007F2C16 /* AppDelegate.m in Sources */,
+				797BD3841AE61F1B00D1AACF /* LGTMAppDelegate.m in Sources */,
+				797BD3811AE61EBF00D1AACF /* LGTMMainViewController.m in Sources */,
 				79F4D5501AE6191B007F2C16 /* main.m in Sources */,
-				79F4D5591AE6191B007F2C16 /* ViewController.m in Sources */,
 				79F4D5561AE6191B007F2C16 /* iLGTM.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
